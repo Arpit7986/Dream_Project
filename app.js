@@ -42,9 +42,9 @@ mongoose.connect(process.env.DB_URL)
     console.log(err)
 })
 
-// seedDB();
-// seedDB1();
-// seedDB2();
+seedDB();
+seedDB1();
+seedDB2();
 
 app.get('/',(req,res)=>{
   res.render('login');
